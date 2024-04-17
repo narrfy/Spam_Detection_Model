@@ -27,10 +27,17 @@ from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.metrics import accuracy_score, f1_score
 
 
-#Load Data
+#Load Data (our training)
 training = pd.read_csv("train.csv")
 documents = training["v2"] # What we are training our model on -> convert to BoW vector
 labels = training["v1"] # what we are trying to classify!
+
+'''
+#LOAD SPAM DATA (from class)
+training = pd.read_csv("SPAM.csv")
+documents = training["Message"] # What we are training our model on -> convert to BoW vector
+labels = training["Category"] # what we are trying to classify!
+'''
 
 label_encoder = LabelEncoder()
 encoded = label_encoder.fit_transform(labels)
