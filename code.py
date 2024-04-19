@@ -99,14 +99,21 @@ print("embeddings loaded")
 data_list = [bow_lem,bow_norm]
 data_list_names = ["bow_lem", "bow_norm"]
 #Train
-nb = MultinomialNB()
-dt = DecisionTreeClassifier()
-svm =SVC()
-rfc = RandomForestClassifier()
-    #SVM
-    #NB
-    #DTC
-    #RFC
+'''
+Best parameters for Decision Tree Classifier:
+{'criterion': 'gini', 'max_depth': 30}
+
+Best parameters for Support Vector Machine Classifier:
+{'C': 0.1, 'kernel': 'linear'}
+
+Best parameters for Random Forest Classifier:
+{'max_depth': 30, 'n_estimators': 100}
+'''
+nb = MultinomialNB()#NB
+dt = DecisionTreeClassifier('criterion': 'gini', 'max_depth': 30)#DT
+svm =SVC('C': 0.1, 'kernel': 'linear')#SVM
+rfc = RandomForestClassifier('max_depth': 30, 'n_estimators': 100)  #RFC
+
 cf = KFold(n_splits = 10)
 for i,data in enumerate(data_list):
     
