@@ -1,0 +1,35 @@
+Experiment: Glove_scaled_docs
+Naive Bayes - Average accuracy: 0.866, Average F1 micro: 0.866, Average F1 macro: 0.464
+Decision Tree - Average accuracy: 0.914, Average F1 micro: 0.914, Average F1 macro: 0.823
+SVM - Average accuracy: 0.947, Average F1 micro: 0.947, Average F1 macro: 0.872
+Random Forest - Average accuracy: 0.967, Average F1 micro: 0.967, Average F1 macro: 0.921
+Experiment: w2v_scaled_docs
+Naive Bayes - Average accuracy: 0.866, Average F1 micro: 0.866, Average F1 macro: 0.465
+Decision Tree - Average accuracy: 0.925, Average F1 micro: 0.925, Average F1 macro: 0.847
+SVM - Average accuracy: 0.968, Average F1 micro: 0.968, Average F1 macro: 0.928
+Random Forest - Average accuracy: 0.973, Average F1 micro: 0.973, Average F1 macro: 0.937
+Experiment: fasttext_scaled_docs
+Naive Bayes - Average accuracy: 0.866, Average F1 micro: 0.866, Average F1 macro: 0.464
+Decision Tree - Average accuracy: 0.927, Average F1 micro: 0.927, Average F1 macro: 0.849
+SVM - Average accuracy: 0.965, Average F1 micro: 0.965, Average F1 macro: 0.921
+Random Forest - Average accuracy: 0.97, Average F1 micro: 0.97, Average F1 macro: 0.93
+Experiment: tfidf_lem
+Naive Bayes - Average accuracy: 0.964, Average F1 micro: 0.964, Average F1 macro: 0.911
+Decision Tree - Average accuracy: 0.971, Average F1 micro: 0.971, Average F1 macro: 0.936
+SVM - Average accuracy: 0.946, Average F1 micro: 0.946, Average F1 macro: 0.858
+Random Forest - Average accuracy: 0.968, Average F1 micro: 0.968, Average F1 macro: 0.923
+Experiment: tfidf_norm
+Naive Bayes - Average accuracy: 0.963, Average F1 micro: 0.963, Average F1 macro: 0.908
+Decision Tree - Average accuracy: 0.969, Average F1 micro: 0.969, Average F1 macro: 0.931
+SVM - Average accuracy: 0.945, Average F1 micro: 0.945, Average F1 macro: 0.854
+Random Forest - Average accuracy: 0.969, Average F1 micro: 0.969, Average F1 macro: 0.925
+Experiment: bow_lem
+Naive Bayes - Average accuracy: 0.964, Average F1 micro: 0.964, Average F1 macro: 0.911
+Decision Tree - Average accuracy: 0.971, Average F1 micro: 0.971, Average F1 macro: 0.936
+SVM - Average accuracy: 0.946, Average F1 micro: 0.946, Average F1 macro: 0.858
+Random Forest - Average accuracy: 0.967, Average F1 micro: 0.967, Average F1 macro: 0.921
+Experiment: bow_norm
+Naive Bayes - Average accuracy: 0.981, Average F1 micro: 0.981, Average F1 macro: 0.959
+Decision Tree - Average accuracy: 0.97, Average F1 micro: 0.97, Average F1 macro: 0.932
+SVM - Average accuracy: 0.984, Average F1 micro: 0.984, Average F1 macro: 0.963
+Random Forest - Average accuracy: 0.965, Average F1 micro: 0.965, Average F1 macro: 0.915
